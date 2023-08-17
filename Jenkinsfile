@@ -1,12 +1,9 @@
 pipeline { 
-    agent any 
-    options {
-        skipStagesAfterUnstable()
-    }
+    agent any
     stages {
         stage('call this job only') { 
             steps { 
-                sh 'http://13.126.236.58:8080/job/jenkinspipejob/build?token=chetan' 
+                sh 'echo "this is first job"' 
             }
         }
     }
