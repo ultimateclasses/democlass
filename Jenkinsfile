@@ -6,5 +6,10 @@ pipeline {
                 sh 'echo "this is first job"' 
             }
         }
+        stage('2nd job') { 
+            steps { 
+                python3 
+            }
+        }
     }
 }
