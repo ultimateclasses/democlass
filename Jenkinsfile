@@ -8,7 +8,7 @@ pipeline {
         }
         stage('2nd job') { 
             steps { 
-                python3 
+                sh 'python3'
             }
         }
     }
