@@ -5,6 +5,8 @@ pipeline {
             steps { 
                 sh 'echo "this is first job"'
                 sh 'echo "this is second job"' 
+                sh 'echo "this is third job"' 
+
  
             }
         }
