@@ -14,6 +14,13 @@ pipeline {
             steps { 
                 sh 'python3'
             }
+
+        }
+        stage('how are you') { 
+            steps { 
+                sh 'ram ram'
+            }
+            
         }
     }
 }
