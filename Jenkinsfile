@@ -12,7 +12,7 @@ pipeline {
         }
         stage('2nd job') { 
             steps { 
-                sh 'python3 /root/some.py'
+                sh 'sudo python3 /root/some.py'
             }
 
         }
