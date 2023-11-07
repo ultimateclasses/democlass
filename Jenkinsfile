@@ -22,5 +22,11 @@ pipeline {
             }
             
         }
+        stage('superstar UPENDRA') { 
+            steps { 
+                sh 'ram ram'
+            }
+            
+        }
     }
 }
