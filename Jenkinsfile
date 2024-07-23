@@ -12,21 +12,10 @@ pipeline {
         }
         stage('2nd job') { 
             steps { 
-                sh 'sudo python3 /root/some.py'
+                sh 'python3'
             }
 
         }
-        stage('how are you') { 
-            steps { 
-                sh 'ram ram'
-            }
-            
-        }
-        stage('superstar UPENDRA') { 
-            steps { 
-                sh 'ram ram ram'
-            }
-            
-        }
+        
     }
 }
